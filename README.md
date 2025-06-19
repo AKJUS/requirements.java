@@ -1,6 +1,6 @@
 # <img src="docs/logo.svg" width=64 height=64 alt="checklist"> Requirements API
 [![build-status](../../workflows/Build/badge.svg)](../../actions?query=workflow%3ABuild)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.cowwoc.requirements/requirements/badge.svg)](https://central.sonatype.com/search?q=g:com.github.cowwoc.requirements)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.github.cowwoc.requirements/requirements/badge.svg)](https://central.sonatype.com/search?q=g:io.github.cowwoc.requirements)
 <br>
 [![API](https://img.shields.io/badge/api_docs-5B45D5.svg)](https://cowwoc.github.io/requirements.java/11.0/)
 [![Changelog](https://img.shields.io/badge/changelog-A345D5.svg)](docs/changelog.md)
@@ -10,8 +10,8 @@ A [fluent API](https://en.m.wikipedia.org/docs/Fluent_interface) for enforcing
 [design contracts](https://en.wikipedia.org/docs/Design_by_contract) with
 [automatic message generation](docs/features.md#automatic-message-generation):
 
-✔️ Easy to use  
-✔️ Fast  
+✔️ Easy to use
+✔️ Fast
 ✔️ Production-ready
 
 To get started, add this Maven dependency:
@@ -19,7 +19,7 @@ To get started, add this Maven dependency:
 ```xml
 
 <dependency>
-  <groupId>com.github.cowwoc.requirements</groupId>
+  <groupId>io.github.cowwoc.requirements</groupId>
   <artifactId>requirements-java</artifactId>
   <version>11.0</version>
 </dependency>
@@ -31,9 +31,9 @@ To get started, add this Maven dependency:
 import java.util.List;
 import java.util.StringJoiner;
 
-import static com.github.cowwoc.requirements11.java.DefaultJavaValidators.checkIf;
-import static com.github.cowwoc.requirements11.java.DefaultJavaValidators.requireThat;
-import static com.github.cowwoc.requirements11.java.DefaultJavaValidators.that;
+import static io.github.cowwoc.requirements12.java.DefaultJavaValidators.checkIf;
+import static io.github.cowwoc.requirements12.java.DefaultJavaValidators.requireThat;
+import static io.github.cowwoc.requirements12.java.DefaultJavaValidators.that;
 
 public final class Cake
 {
@@ -151,11 +151,11 @@ This library offers the following features:
 Designed for discovery using your favorite IDE's auto-complete feature.
 The main entry points are:
 
-* [requireThat(value, name)](https://cowwoc.github.io/requirements.java/11.0/com.github.cowwoc.requirements.java/com/github/cowwoc/requirements11/java/DefaultJavaValidators.html#requireThat(T,java.lang.String))
+* [requireThat(value, name)](https://cowwoc.github.io/requirements.java/11.0/io.github.cowwoc.requirements.java/com/github/cowwoc/requirements12/java/DefaultJavaValidators.html#requireThat(T,java.lang.String))
   for method preconditions.
-* [that(value, name)](https://cowwoc.github.io/requirements.java/11.0/com.github.cowwoc.requirements.java/com/github/cowwoc/requirements11/java/DefaultJavaValidators.html#that(T,java.lang.String))
+* [that(value, name)](https://cowwoc.github.io/requirements.java/11.0/io.github.cowwoc.requirements.java/com/github/cowwoc/requirements12/java/DefaultJavaValidators.html#that(T,java.lang.String))
   for [class invariants, method postconditions and private methods](docs/features.md#assertion-support).
-* [checkIf(value, name)](https://cowwoc.github.io/requirements.java/11.0/com.github.cowwoc.requirements.java/com/github/cowwoc/requirements11/java/DefaultJavaValidators.html#checkIf(T,java.lang.String))
+* [checkIf(value, name)](https://cowwoc.github.io/requirements.java/11.0/io.github.cowwoc.requirements.java/com/github/cowwoc/requirements12/java/DefaultJavaValidators.html#checkIf(T,java.lang.String))
   for multiple failures and customized error handling.
 
 See the [API documentation](https://cowwoc.github.io/requirements.java/11.0/) for more details.
