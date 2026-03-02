@@ -65,7 +65,7 @@
 		<slf4j.version>2.0.17</slf4j.version>
 		<testng.version>7.11.0</testng.version>
 		<jmh.version>1.37</jmh.version>
-		<pmd.version>7.14.0</pmd.version>
+		<pmd.version>7.22.0</pmd.version>
 		<checkstyle.plugin.version>3.6.0</checkstyle.plugin.version>
 	</properties>
 
@@ -159,7 +159,7 @@
 			<dependency>
 				<groupId>org.assertj</groupId>
 				<artifactId>assertj-core</artifactId>
-				<version>3.27.3</version>
+				<version>3.27.7</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
